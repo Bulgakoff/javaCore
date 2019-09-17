@@ -1,4 +1,4 @@
-package GBmainEgit.javaCore.git.marathon;
+package GBmainEgit.javaCore.git.marathon.Actions;
 
 public interface Competitor {
     void run(int dist);

@@ -1,4 +1,6 @@
-package GBmainEgit.javaCore.git.marathon;
+package GBmainEgit.javaCore.git.marathon.Animals;
+
+import GBmainEgit.javaCore.git.marathon.Animals.Animal;
 
 public class Cat extends Animal {
     public Cat(String name) {

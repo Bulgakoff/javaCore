@@ -1,4 +1,6 @@
-package GBmainEgit.javaCore.git.marathon;
+package GBmainEgit.javaCore.git.marathon.Human;
+
+import GBmainEgit.javaCore.git.marathon.Actions.Competitor;
 
 public class Human implements Competitor {
     String name;

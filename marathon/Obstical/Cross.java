@@ -1,4 +1,7 @@
-package GBmainEgit.javaCore.git.marathon;
+package GBmainEgit.javaCore.git.marathon.Obstical;
+
+import GBmainEgit.javaCore.git.marathon.Actions.Competitor;
+import GBmainEgit.javaCore.git.marathon.Actions.Obstacle;
 
 public class Cross extends Obstacle {
     int length;

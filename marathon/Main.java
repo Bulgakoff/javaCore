@@ -1,5 +1,15 @@
 package GBmainEgit.javaCore.git.marathon;
 
+import GBmainEgit.javaCore.git.marathon.Actions.Competitor;
+import GBmainEgit.javaCore.git.marathon.Actions.Obstacle;
+import GBmainEgit.javaCore.git.marathon.Animals.Cat;
+import GBmainEgit.javaCore.git.marathon.Animals.Dog;
+import GBmainEgit.javaCore.git.marathon.Animals.Team;
+import GBmainEgit.javaCore.git.marathon.Human.Human;
+import GBmainEgit.javaCore.git.marathon.Obstical.Course;
+import GBmainEgit.javaCore.git.marathon.Obstical.Cross;
+import GBmainEgit.javaCore.git.marathon.Obstical.Wall;
+
 public class Main {
     public static void main(String[] args) {
         Competitor[] competitors = {new Human("Боб"), new Cat("Барсик"), new Dog("Бобик")};
@@ -15,6 +25,6 @@ public class Main {
         }
         Team team=new Team();
         Course course1=new Course();
-        
+
     }
 }
