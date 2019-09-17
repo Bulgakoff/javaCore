@@ -23,8 +23,10 @@ public class Main {
         for (Competitor c : competitors) {
             c.info();
         }
-        Team team=new Team();
-        Course course1=new Course();
+//        Course c = new Course(...); // Создаем полосу препятствий
+//        Team team = new Team(...); // Создаем команду
+//        c.doIt(team); // Просим команду пройти полосу
+        //team.showResults(); // Показываем результаты
 
     }
 }
