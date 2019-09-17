@@ -13,5 +13,8 @@ public class Main {
         for (Competitor c : competitors) {
             c.info();
         }
+        Team team=new Team();
+        Course course1=new Course();
+        
     }
 }
