@@ -1,4 +1,4 @@
-package AlishevEnum48.Days;
+package GBmainEgit.javaCore.git;
 
 public class TestDay {
     public static void main(String[] args) {

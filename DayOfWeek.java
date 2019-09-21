@@ -1,4 +1,4 @@
-package AlishevEnum48.Days;
+package GBmainEgit.javaCore.git;
 
 public enum DayOfWeek {
     Monday("Понедельник",40/1), Tuesday("Вторник",40/2),
