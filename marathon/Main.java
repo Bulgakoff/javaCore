@@ -9,12 +9,14 @@ import GBmainEgit.javaCore.git.marathon.Human.Human;
 import GBmainEgit.javaCore.git.marathon.Obstical.Course;
 import GBmainEgit.javaCore.git.marathon.Obstical.Cross;
 import GBmainEgit.javaCore.git.marathon.Obstical.Wall;
+import GBmainEgit.javaCore.git.marathon.Obstical.Water;
 
 public class Main {
     public static void main(String[] args) {
         Competitor[] competitors = {new Human("Боб"), new Cat("Барсик"), new Dog("Бобик")};
-        Obstacle[] course = {new Cross(80), new Wall(2), new Wall(1), new Cross(120)};
-        for (Competitor c : competitors) {
+        Obstacle[] course = {new Cross(80), new Wall(2), new Water(5), new Cross(120)};
+        for (Competitor c : competitors) {// Competitor другой класс но берем как животные,
+            // т.к. есть имплементация в них, а точнее в их родителе Animal
             for (Obstacle o : course) {
                 o.doIt(c);
                 if (!c.isOnDistance()) break;
